@@ -1,0 +1,50 @@
+.digital {
+  width: 100%;
+  height: 360px;
+  display: flex;
+  justify-content: center;
+  .digital-center {
+    width: 80%;
+    height: 100%;
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .swiper-slide-item{
+        width: 100%;
+        height: 100%;
+        .swiper-slide-item-digit{
+          width: 100%;
+          height: 50%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          img{
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+          }
+          h4{
+            font-family:yekan;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

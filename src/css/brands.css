@@ -1,0 +1,43 @@
+.brands {
+  width: 100%;
+  height: 225px;
+  padding: 10px;
+  margin-bottom: 50px;
+  .brands-center {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #eae9e9;
+    border-radius: 10px;
+    padding: 10px;
+    .brands-center-bottom {
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #444;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: 1px solid #eae9e9;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      img {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+      }
+    }
+  }
+}

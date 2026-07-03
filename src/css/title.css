@@ -1,0 +1,19 @@
+.title {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+
+  .text {
+    width: 222px;
+    height: 44px;
+    margin-top: 10px;
+
+    h3 {
+      font-size: 20px;
+      font-family: yekan;
+      text-align: center;
+      white-space: nowrap;
+    }
+  }
+}
